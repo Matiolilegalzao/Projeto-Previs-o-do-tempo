@@ -10,9 +10,10 @@
 <body>
     <div class="content-wrapper">
         <section id="main">
-            <input type="text" placeholder="Digite o nome da cidade">
-                <input type="button" style="background-image: url(./images/magnifying-glass-solid.svg); background-size: cover; background-position: center;" onclick="search()">
-
+            <div class="searchContainer">
+                <input type="text" placeholder="Digite o nome da cidade">
+                <input type="button" id="searchButton" style="background-image: url(./images/magnifying-glass-solid.svg); background-size: cover; background-position: center;" onclick="search()">
+            </div>
             <h2>Tempo em Rio de Janeiro</h2>
             <p>Temperatura °C</p>
             <p>Status</p>
